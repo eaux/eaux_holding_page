@@ -1,11 +1,36 @@
 *{
   margin:0;
   padding:0;
-  font-family:sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:lighter;
-  color:#333;
+  color: white;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+html{
+  background-color:black;
+  background-image:url(bg.jpg);
+  background-size: 100% auto;
+  background-size: cover;
+  background-repeat:no-repeat;
 }
 body{
-  max-width: 800px;
+  margin-top:40px;
+  background:transparent;
+  background:rgba(0,0,0,0.2);
+}
+header{
+  max-width:1000px;
   margin:0 auto;
+}
+header h1 img{
+  width:100%;
+}
+article{
+  text-align: center;
+}
+h2{
+  margin-bottom:1.6em;
+}
+p{
+  margin-bottom:1.6em;
 }
