@@ -9,10 +9,11 @@
 }
 html{
   background-color:black;
-  background-image:url(bg.jpg);
-  background-size: 100% auto;
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat:no-repeat;
 }
 body{
   margin-top:40px;
