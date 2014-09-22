@@ -8,12 +8,8 @@
   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 }
 html{
-  background-color:black;
   background: url(bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color:black;
 }
 body{
   margin-top:40px;
@@ -38,4 +34,13 @@ h2{
 }
 p{
   margin-bottom:1.6em;
+}
+
+@media all and (max-width:1330px){
+  html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
